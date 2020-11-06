@@ -19,7 +19,7 @@ Exemplo:
 
 ## Formatação de Strings
 Exemplos:  
-Quantidade de caracteres da string  
+Quantidade de caracteres da string
 - s.length  
 Tudo para maiúsculo  
 - s.toUpperCase()  
@@ -28,9 +28,9 @@ Tudo para minúsculo
 
 ## Formatação de Números
 Exemplos:  
-Fixar o número de casa decimais  
-- n1.toFixed(2)
+Fixar o número de casa decimais
+- n1.toFixed(2)  
 Trocar um caractere por outro  
 - n1.toFixed(2).replace('.' , '.') //Troca o ponto '.' por vírgula ','  
-Formata a variável de acordo com a moeda selecionada.
+Formata a variável de acordo com a moeda selecionada.  
 - n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) //'BRL' ; 'EUR'
