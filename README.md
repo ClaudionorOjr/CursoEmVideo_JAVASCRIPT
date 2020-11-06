@@ -4,3 +4,13 @@ Curso de JavaScript do canal [Curso em Vídeo](https://www.youtube.com/playlist?
 Neste repositório irei armazenar os exercícios realizados durante o curso.
 
 ## Módulo A: Conhecendo o JavaScript
+- [x] O que JS é capaz de fazer?
+- [x] Dicas de aprendizagem
+- [x] JS versus ECMAScript
+- [x] Requisitos de software?
+- [x] Primeiros scripts em JS
+
+## Módulo B: Comandos Básicos
+- [ ] Armazenando dados
+- [ ] Tratamento de dados
+- [ ] Operações com dados
