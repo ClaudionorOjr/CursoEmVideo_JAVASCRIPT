@@ -15,7 +15,7 @@ Exemplos:
 Utiliza de `${}` (placeholder) para adicionar variáveis a string.  
 Para que o template string funcione é necessário estar entre \` \` (crase).  
 Exemplo:  
-`window.alert(\`A soma entra ${n1} e ${n2} é ${s}\`)`
+`window.alert(`\``A soma entra ${n1} e ${n2} é ${s}`\``)`
 
 ## Formatação de Strings
 Exemplos:  
