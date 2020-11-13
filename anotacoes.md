@@ -2,7 +2,7 @@
 Repositório para anotações e dicas do curso.
 
 ## Conversão
-Funções para conversões de um tipo para outro.  
+Funções para conversões de um tipo para outro.
 Exemplos:
 - Number(n)
 - Number.parseInt(n)
@@ -12,25 +12,84 @@ Exemplos:
 - n.toString()
 
 ## Template String
-Utiliza de `${}` (placeholder) para adicionar variáveis a string.  
-Para que o template string funcione é necessário estar entre \` \` (crase).  
-Exemplo:  
+Utiliza de `${}` (placeholder) para adicionar variáveis a string.
+Para que o template string funcione é necessário estar entre \` \` (crase).
+Exemplo:
 `window.alert(`\``A soma entra ${n1} e ${n2} é ${s}`\``)`
 
 ## Formatação de Strings
-Exemplos:  
+Exemplos:
 Quantidade de caracteres da string
-- s.length  
-Tudo para maiúsculo  
-- s.toUpperCase()  
-Tudo para minúsculo  
+- s.length
+Tudo para maiúsculo
+- s.toUpperCase()
+Tudo para minúsculo
 - s.toLowerCase()
 
 ## Formatação de Números
-Exemplos:  
+Exemplos:
 Fixar o número de casa decimais
-- n1.toFixed(2)  
-Trocar um caractere por outro  
-- n1.toFixed(2).replace('.' , '.') //Troca o ponto '.' por vírgula ','  
-Formata a variável de acordo com a moeda selecionada.  
+- n1.toFixed(2)
+Trocar um caractere por outro
+- n1.toFixed(2).replace('.' , '.') // Troca o ponto '.' por vírgula ','
+Formata a variável de acordo com a moeda selecionada.
 - n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) //'BRL' ; 'EUR'
+
+## Operadores  
+### - ARITMÉTICOS: utilizados para cálculos  
+`+  -  *  /  %  **`  
+
+### Ordem de precedência:  
+1. ();  
+2. **;  
+3. *, /, %;  
+4. +, -  
+  
+### - ATRIBUIÇÃO: atribuir valores a variáveis  
+`var n = 3` // O `'='` é um operador de atribução  
+  
+### Auto-atribuição:  
+`n = n + 4`  
+  
+### Simplificação de auto-atribuição:  
+`n = n + 4` -> `n += 4`  
+`n = n / 4` -> `n /= 4`  
+`n = n ** 2` -> `n **= 2`  
+`n = n % 5` -> `n %= 5`  
+  
+### Incremento/Decremento:  
+`x = x + 1` -> `x++` (Exemplo de PRÉ-incremento!)  
+`x = x + 1` -> `++a` (Exemplo de PÓS-incremento!)  
+`x = x - 1` -> `x--` (Exemplo de PRÉ-decremento!)  
+`x = x - 1` -> `--x` (Exemplo de PÓS-decremento!)  
+
+### - RELACIONAIS: o resultado de operações relacionais é um valor booleano, ou seja, verdadeiro ou falso.  
+`5 > 2 -> true`  
+`8 < 4 -> false`  
+`8 >= 8 -> true`  
+`9 <= 7 -> false`  
+`5 == 5 -> true`  
+`4 != 4 -> false`  
+  
+### Operadores relacionais de Identidade:  
+O sinal de igualdade '==' não testa o tipo do valor.  
+`5 == 5 -> true`  
+`5 == '5' -> true`  
+Já o operador de Identidade (igualdade restrita) '===' se são o mesmo valor e o mesmo tipo.  
+`5 === '5' -> false`  
+`5 === 5 -> true`  
+  
+### - LÓGICOS:
+1.`!` negação //Unário  
+2.`&&` conjunção //Binário (dois valores lógicos)  
+3.`||` disjunção //Binário (dois valores lógicos)  
+  
+### - TERNÁRIO: junta três operandos.  
+`?` , `:`  
+Exemplo:  
+`media >= 7.0 ? 'APROVADO' : 'REPROVADO'` // Se atender a condição retorna aprovado, se não, reprovado.  
+
+### Ordem de precedência dos operadores:  
+1.Aritméticos  
+2.Relacionais  
+3.Lógicos  
