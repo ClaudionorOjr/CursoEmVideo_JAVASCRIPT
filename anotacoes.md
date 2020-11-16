@@ -15,34 +15,28 @@ Exemplos:
 Utiliza de `${}` (placeholder) para adicionar variáveis a string.
 Para que o template string funcione é necessário estar entre \` \` (crase).
 Exemplo:
-`window.alert(`\``A soma entra ${n1} e ${n2} é ${s}`\``)`
+`window.alert(`\``A soma entre ${n1} e ${n2} é ${s}`\``)`
 
 ## Formatação de Strings
-Exemplos:
-Quantidade de caracteres da string
-- s.length
-Tudo para maiúsculo
-- s.toUpperCase()
-Tudo para minúsculo
-- s.toLowerCase()
+Exemplos:  
+- s.length // Quantidade de caracteres da string
+- s.toUpperCase() // Tudo para maiúsculo
+- s.toLowerCase() // Tudo para minúsculo
 
 ## Formatação de Números
-Exemplos:
-Fixar o número de casa decimais
-- n1.toFixed(2)
-Trocar um caractere por outro
-- n1.toFixed(2).replace('.' , '.') // Troca o ponto '.' por vírgula ','
-Formata a variável de acordo com a moeda selecionada.
-- n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) //'BRL' ; 'EUR'
+Exemplos:  
+- n1.toFixed(2) // Fixar o número de casas decimais
+- n1.toFixed(2).replace('.' , '.') // Trocar um caractere por outro. Como ponto '.' por vírgula ','
+- n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'}) // Formata a variável de acordo com a moeda selecionada. Exemplo: 'BRL' ou 'EUR'
 
 ## Operadores  
 ### - ARITMÉTICOS: utilizados para cálculos  
 `+  -  *  /  %  **`  
 
 ### Ordem de precedência:  
-1. ();  
-2. **;  
-3. *, /, %;  
+1. ( ) ;  
+2. ** ;  
+3. *, /, % ;  
 4. +, -  
   
 ### - ATRIBUIÇÃO: atribuir valores a variáveis  
@@ -75,7 +69,7 @@ Formata a variável de acordo com a moeda selecionada.
 O sinal de igualdade '==' não testa o tipo do valor.  
 `5 == 5 -> true`  
 `5 == '5' -> true`  
-Já o operador de Identidade (igualdade restrita) '===' se são o mesmo valor e o mesmo tipo.  
+Já o operador de Identidade (igualdade restrita) '===' testa se são o mesmo valor e o mesmo tipo.  
 `5 === '5' -> false`  
 `5 === 5 -> true`  
   
@@ -85,14 +79,14 @@ Já o operador de Identidade (igualdade restrita) '===' se são o mesmo valor e 
 3.`||` disjunção //Binário (dois valores lógicos)  
   
 ### - TERNÁRIO: junta três operandos.  
-`?` , `:`  
+expressão `?` opção 1 `:` opção 2  
 Exemplo:  
 `media >= 7.0 ? 'APROVADO' : 'REPROVADO'` // Se atender a condição retorna aprovado, se não, reprovado.  
 
 ### Ordem de precedência dos operadores:  
-1.Aritméticos  
-2.Relacionais  
-3.Lógicos  
+1. Aritméticos  
+2. Relacionais  
+3. Lógicos  
 
 ## DOM
 Document Object Model  
