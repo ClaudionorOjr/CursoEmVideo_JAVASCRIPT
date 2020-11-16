@@ -11,6 +11,11 @@ Neste repositório irei armazenar os exercícios realizados durante o curso.
 - [x] Primeiros scripts em JS
 
 ## Módulo B: Comandos Básicos
-- [ ] Armazenando dados
-- [ ] Tratamento de dados
-- [ ] Operações com dados
+- [x] Armazenando dados
+- [x] Tratamento de dados
+- [x] Operações com dados
+
+## Módulo C: Conhecendo o DOM
+- [ ] Document Object Model
+- [ ] Árvore DOM
+- [ ] Manipulando DOM

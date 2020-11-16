@@ -93,3 +93,30 @@ Exemplo:
 1.Aritméticos  
 2.Relacionais  
 3.Lógicos  
+
+## DOM
+Document Object Model  
+Presente nos navegadores.  
+
+### Árvore DOM
+- Raiz: window (como é chamada a raiz dentro do navegador)  
+	- location  
+	- document
+		- html
+			- head
+			- body
+	- history 
+
+### Selecionando
+Selecionando elementos para navegar dentro da árvore DOM  
+- por Marca
+	- `getElementsByTagName()` // Seleciona mais de um objeto
+- por ID
+	- `getElmentById()`
+- por Nome
+	- `getElementsByName()`
+- por Classe
+	- `getElementsByClassName()`
+- por Seletor
+	- `querySelector()`
+	- `querySelectorAll()`
