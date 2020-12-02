@@ -89,8 +89,7 @@ Exemplo:
 3. Lógicos  
 
 ## DOM
-Document Object Model  
-Presente nos navegadores.  
+Document Object Model é um facilitador que existe dentro do seu navegador, dentro do HTML5 para dar acesso aos elementos diretamente para o JavaScript.  
 
 ### Árvore DOM
 - Raiz: window (como é chamada a raiz dentro do navegador)  
@@ -103,7 +102,7 @@ Presente nos navegadores.
 
 ### Selecionando
 Selecionando elementos para navegar dentro da árvore DOM  
-- por Marca
+- por TagName
 	- `getElementsByTagName()` // Seleciona mais de um objeto
 - por ID
 	- `getElmentById()`
@@ -112,5 +111,74 @@ Selecionando elementos para navegar dentro da árvore DOM
 - por Classe
 	- `getElementsByClassName()`
 - por Seletor
-	- `querySelector()`
+	- `querySelector()` // Faz a seleção através de elementos CSS
 	- `querySelectorAll()`
+
+### Eventos DOM
+Ações que podem ser realizadas com os elementos HTML através do JavaScript.
+
+### Função
+Conjunto de códigos que só serão executadas quando um evento ocorrer.  
+
+`function somar() {
+    var tn1 = window.document.getElementById('txtn1')
+    var tn2 = window.document.querySelector('input#txtn2')
+    var res = window.document.getElementById('res')
+    var n1 = Number(tn1.value)
+    var n2 = Number(tn2.value)
+    var soma = n1 + n2
+    res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${soma}</strong>`
+}`
+
+## Condições
+
+- Condição simples
+	`if(condição){  
+	    true  
+	}`  
+
+- Condição composta
+	`if(condição){
+	    true  
+	}else {  
+	    false  
+	}`  
+
+- Condição Aninhada
+	`if(condição1){
+	    bloco1  
+	}else {
+	    if(condição2){
+	        bloco2  
+	    }else {  
+	        bloco3  
+	    }  
+	}`  
+
+- Condição Múltipla
+	`switch(expressão){
+	    case valor 1:  
+	        bloco1  
+	        break  
+	    case valor 2:  
+	        bloco2  
+	        break  
+	    case valor 3:  
+	        bloco3  
+	        break      
+	    default:  
+	        bloco4  
+	        break  
+	}`  
+
+## Repetições
+- While: estrutura de repetição com teste lógico no início
+	`while(condicao){  
+	    bloco  
+	}`  
+
+- Do while: estrutura de repetição com teste lógico no final
+	`do{  
+	    bloco  
+	}while(condicao)`  
+

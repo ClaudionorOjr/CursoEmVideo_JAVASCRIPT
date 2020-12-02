@@ -16,6 +16,19 @@ Neste repositório irei armazenar os exercícios realizados durante o curso.
 - [x] Operações com dados
 
 ## Módulo C: Conhecendo o DOM
-- [ ] Document Object Model
-- [ ] Árvore DOM
-- [ ] Manipulando DOM
+- [x] Document Object Model
+- [x] Árvore DOM
+- [x] Manipulando DOM
+
+## Módulo D: Condições em JS
+- [x] Condições Simples
+- [x] Condições Compostas
+- [x] Condições Aninhadas
+- [x] Condições Múltiplas
+- [x] Exercícios Propostos
+
+## Módulo E: Repetições em JS
+- [ ] Repetições com teste no início
+- [ ] Repetições com teste no final
+- [ ] Repetições com controle
+- [ ] Exercícios Propostos
