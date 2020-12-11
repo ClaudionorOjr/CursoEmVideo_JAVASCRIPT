@@ -182,3 +182,29 @@ Conjunto de códigos que só serão executadas quando um evento ocorrer.
 	    bloco  
 	}while(condicao)`  
 
+- For: estrutura de repetição com variável de controle
+	`for(inicio;teste;incr){
+	    bloco  
+	}`  
+  
+## Variáveis Compostas
+Capazes de armazenar vários valores em uma mesma estrutura.  
+- Arrays (os arrays no JS são heterogêneos, aceitam valores de tipos diferentes)  
+`var vetor = []`  
+
+
+## Funções
+São ações executadas assim que chamadas ou em decorrência de algum evento. Uma função pode receber parâmetros e retornar um resultado.  
+`function ação(parâmetros){  
+    bloco  
+    return res  
+}  
+ação(5)  `  
+
+
+## Objetos
+Objetos além de guardar valores podem guardar funcionalidades (métodos).  
+Para se declarar um objeto em JS utiliza de `{}` (chaves).  
+
+`let amigo = {nome:'José',sexo:'M',peso:85.4,engordar(p){} }`  
+

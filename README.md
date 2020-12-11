@@ -28,7 +28,25 @@ Neste repositório irei armazenar os exercícios realizados durante o curso.
 - [x] Exercícios Propostos
 
 ## Módulo E: Repetições em JS
-- [ ] Repetições com teste no início
-- [ ] Repetições com teste no final
-- [ ] Repetições com controle
-- [ ] Exercícios Propostos
+- [x] Repetições com teste no início
+- [x] Repetições com teste no final
+- [x] Repetições com controle
+- [x] Exercícios Propostos
+
+## Módulo F: Avançando nos Estudos
+- [x] Variáveis Compostas
+- [x] Uso de funções e eventos
+- [x] Passagem de Parâmetros
+- [x] Exercícios Propostos
+- [x] Próximos Passos
+
+## Próximos Passos:
+Estudos sobre:  
+- [ ] HTML5 CSS3
+- [ ] Functions
+- [ ] Objetos
+- [ ] Modularização
+- [ ] RegEx (Expressões regulares)
+- [ ] JSON
+- [ ] AJAX
+- [ ] NodeJS
