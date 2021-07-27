@@ -120,7 +120,8 @@ Ações que podem ser realizadas com os elementos HTML através do JavaScript.
 ### Função
 Conjunto de códigos que só serão executadas quando um evento ocorrer.  
 
-`function somar() {
+```js
+function somar() {
     var tn1 = window.document.getElementById('txtn1')
     var tn2 = window.document.querySelector('input#txtn2')
     var res = window.document.getElementById('res')
@@ -128,24 +129,30 @@ Conjunto de códigos que só serão executadas quando um evento ocorrer.
     var n2 = Number(tn2.value)
     var soma = n1 + n2
     res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${soma}</strong>`
-}`
+}
+```
 
 ## Condições
 
 - Condição simples
-	`if(condição){  
+	```js
+	if(condição){  
 	    true  
-	}`  
+	}
+	```  
 
 - Condição composta
-	`if(condição){
+	```js
+	if(condição){
 	    true  
 	}else {  
 	    false  
-	}`  
+	}
+	```  
 
 - Condição Aninhada
-	`if(condição1){
+	```js
+	if(condição1){
 	    bloco1  
 	}else {
 	    if(condição2){
@@ -153,10 +160,12 @@ Conjunto de códigos que só serão executadas quando um evento ocorrer.
 	    }else {  
 	        bloco3  
 	    }  
-	}`  
+	}
+	```  
 
 - Condição Múltipla
-	`switch(expressão){
+	```js
+	switch(expressão){
 	    case valor 1:  
 	        bloco1  
 	        break  
@@ -169,23 +178,30 @@ Conjunto de códigos que só serão executadas quando um evento ocorrer.
 	    default:  
 	        bloco4  
 	        break  
-	}`  
+	}
+	```  
 
 ## Repetições
 - While: estrutura de repetição com teste lógico no início
-	`while(condicao){  
+	```js
+	while(condicao){  
 	    bloco  
-	}`  
+	}
+	```  
 
 - Do while: estrutura de repetição com teste lógico no final
-	`do{  
+	```js
+	do{  
 	    bloco  
-	}while(condicao)`  
+	}while(condicao)
+	```  
 
 - For: estrutura de repetição com variável de controle
-	`for(inicio;teste;incr){
+	```js
+	for(inicio;teste;incr){
 	    bloco  
-	}`  
+	}
+	```  
   
 ## Variáveis Compostas
 Capazes de armazenar vários valores em uma mesma estrutura.  
@@ -195,11 +211,13 @@ Capazes de armazenar vários valores em uma mesma estrutura.
 
 ## Funções
 São ações executadas assim que chamadas ou em decorrência de algum evento. Uma função pode receber parâmetros e retornar um resultado.  
-`function ação(parâmetros){  
+```js
+function ação(parâmetros){  
     bloco  
     return res  
 }  
-ação(5)  `  
+ação(5)  
+```  
 
 
 ## Objetos
