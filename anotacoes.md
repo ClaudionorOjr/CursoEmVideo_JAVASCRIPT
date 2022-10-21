@@ -52,10 +52,34 @@ Exemplos:
 `n = n % 5` -> `n %= 5`  
   
 ### Incremento/Decremento:  
-`x = x + 1` -> `x++` (Exemplo de PRÉ-incremento!)  
-`x = x + 1` -> `++a` (Exemplo de PÓS-incremento!)  
-`x = x - 1` -> `x--` (Exemplo de PRÉ-decremento!)  
-`x = x - 1` -> `--x` (Exemplo de PÓS-decremento!)  
+`x = x + 1` -> `x++` (Exemplo de PÓS-incremento!)  
+`x = x + 1` -> `++x` (Exemplo de PRÉ-incremento!)  
+`x = x - 1` -> `x--` (Exemplo de PÓS-decremento!)  
+`x = x - 1` -> `--x` (Exemplo de PRÉ-decremento!)  
+
+#### Pré-incremento
+Veja o exemplo abaixo: no pré-incremento, primeiramente a variável `c` é incrementada, e só depois atribuída a `d`:
+```js
+var c, d;
+c = 6;
+console.log("Pre-incremento\n");
+console.log("Numero sem incremento: %d\n", c); // 6
+d = ++c; // O VALOR É INCREMENTADO, E SÓ DEPOIS PASSADO PARA 'd'
+console.log("Valor de 'c':%d\nValor de 'd':%d\n", c, d); // c = 7, d = 7
+```
+Neste exemplo, `c`, que vale 6 é primeiramente incrementada e passa a valer 7. Somente depois disso, a variável – que já vale 7 – é atribuída a `d`, que também fica valendo 7.  
+
+#### Pós-Incremento
+Veja no exemplo que primeiramente a variável é atribuída, e só depois incrementada:
+```js
+var c, d;
+c = 6;
+console.log("Pos-incremento\n");
+console.log("Numero sem incremento: %d\n", c); // 6
+d = c++;// O VALOR É PASSADO PARA 'd', E DEPOIS INCREMENTADO
+console.log("Valor de 'c':%d\nValor de 'd':%d\n", c, d); // c = 7, d = 6
+```
+Neste exemplo, `c`, que vale 6 tem seu valor atribuído a `d`, que fica valendo 6 também. Somente depois dessa operação que `c` tem seu valor incrementado, valendo então 7.  
 
 ### - RELACIONAIS: o resultado de operações relacionais é um valor booleano, ou seja, verdadeiro ou falso.  
 `5 > 2 -> true`  
@@ -224,5 +248,12 @@ ação(5)
 Objetos além de guardar valores podem guardar funcionalidades (métodos).  
 Para se declarar um objeto em JS utiliza de `{}` (chaves).  
 
-`let amigo = {nome:'José',sexo:'M',peso:85.4,engordar(p){} }`  
+```js
+let amigo = {
+    nome: 'José',
+    sexo: 'M',
+    peso: 85.4,
+    engordar(p){} 
+}
+```  
 
